@@ -34,12 +34,20 @@ npm run build
 npm run lint
 ```
 
-to run this code locally
-1.Download this code as a ZIP.
-2.Unzip it.
-3.Open with code Editor
-4.run command  npm install -g vite
-5.run npm install
-6.npm run dev
+# Project Setup Instructions
 
-now you can view this site on your local machine.
+Follow these steps to run the project locally on your machine:
+
+1. **Download the Code**: Click on the green "Code" button and select "Download ZIP" to download the project files.
+2. **Unzip the Files**: Extract the contents of the downloaded ZIP file to a directory of your choice.
+3. **Open with a Code Editor**: Launch your preferred code editor (e.g., Visual Studio Code, Atom) and open the extracted project folder.
+4. **Install Vite Globally**: Open a terminal in your code editor and run the following command to install Vite globally:
+   ```sh
+   npm install -g vite
+   npm install
+   npm run dev
+
+
+
+
+```sh
