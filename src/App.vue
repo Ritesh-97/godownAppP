@@ -6,6 +6,8 @@
       </div>
       <h1>Godown's Inventories Management</h1>
       <button v-if="isLoggedIn" @click="logout">Logout</button>
+            <button @click="showAllItems">Show All Items</button>
+
       <!-- <input type="text" v-model="searchQuery" placeholder="Search items" @input="filterItems"> -->
       <div class="advanced-search" v-if="isLoggedIn">
      
@@ -232,6 +234,11 @@ export default {
     getItemsByGodown(godownId) {
       return this.items.filter((item) => item.godown_id === godownId);
     },
+showAllItems() {
+      this.selectedItems = this.items; // Show all items by resetting selectedItems to all items
+    },
+    
+    
     generatePrompt() {
       const itemNames = this.selectedItems.map(item => item.name).join(', ');
 
