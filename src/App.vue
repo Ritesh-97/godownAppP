@@ -185,7 +185,7 @@ export default {
 },
 
   created() {
-    fetch('src/godowns.json')
+    fetch('/godowns.json')
       .then((response) => response.json())
       .then((data) => {
         this.nodes = data;
