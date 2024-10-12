@@ -50,10 +50,10 @@ Follow these steps to run the project locally on your machine:
 
 
 
-```sh
+
 
 #Youtube Link For the Quick Tour Of the Repository//
 (https://youtu.be/meqa3ihLUAM)
 
-[Text to display](https://youtu.be/meqa3ihLUAM)
+
 
