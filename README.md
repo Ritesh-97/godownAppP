@@ -33,3 +33,13 @@ npm run build
 ```sh
 npm run lint
 ```
+
+to run this code locally
+1.Download this code as a ZIP.
+2.Unzip it.
+3.Open with code Editor
+4.run command  npm install -g vite
+5.run npm install
+6.npm run dev
+
+now you can view this site on your local machine.
